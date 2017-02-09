@@ -1,5 +1,6 @@
 describe('Uncovering alliances', function() {
   it('should have a `sortedRobots` array', function() {
+    this.timeout(0);
     expect(sortedRobots).toBeAn('array');
   });
 
